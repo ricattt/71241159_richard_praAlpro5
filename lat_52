@@ -1,0 +1,15 @@
+def cek_digit_belakang(angka1, angka2, angka3):
+    if angka1 % 10 == angka2 % 10:
+        print("True")
+    elif angka2 % 10 == angka3 % 10:
+        print("True")
+    elif angka1 % 10 == angka3 % 10:
+        print("True")
+    else:
+        print("False")
+
+angka1 = int(input())
+angka2 = int(input())
+angka3 = int(input())
+
+cek_digit_belakang(angka1, angka2, angka3)
