@@ -1,0 +1,12 @@
+def konversi_suhu(c, jenis):
+    if jenis == "f":
+        f = (9/5)*c + 32
+        print(int(f))
+    elif jenis == "r":
+        r = 0.8 * c
+        print(int(r))
+
+c = int(input("Masukkan berapa derajat yang ingin dikonversi: "))
+jenis = input("Masukkan ingin mengonversi ke suhu apa (f or r): ")
+
+konversi_suhu(c,jenis)
